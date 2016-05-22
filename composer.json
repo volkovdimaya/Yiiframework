@@ -1,12 +1,10 @@
 {
-    "name":"framework/yii",
+    "name":"framework",
     "version":"1.0.0",
     "require":{
         "php":">=5.4.0"
     },
     "autoload":{
-        "psr-0":{
-            "framework":"yii.php"
-        }
+		"classmap":["framework/yii.php"]
     }
 }
